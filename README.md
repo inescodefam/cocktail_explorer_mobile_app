@@ -50,3 +50,6 @@ app/src/main/java/hr/algebra/cocktailexplorer/
 ## License
 
 This project is for educational purposes only.
+![gif-demo-cocktail-explorer](https://github.com/user-attachments/assets/92b7d92a-3dda-44cb-85a1-029bf846dbbc)
+
+
