@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Cocktail Explorer</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="title_all_cocktails">All Cocktails</string>
+    <string name="title_categories">Categories</string>
+    <string name="search_hint">Search cocktails...</string>
+    <string name="filter_all">All</string>
+    <string name="filter_alcoholic">Alcoholic</string>
+    <string name="filter_non_alcoholic">Non-Alcoholic</string>
+
+    <!-- Details Screen -->
+    <string name="ingredients_title">Ingredients</string>
+    <string name="instructions_title">Instructions</string>
+    <string name="glass_type">Glass: %1$s</string>
+    <string name="category">Category: %1$s</string>
+
+    <!-- Actions -->
+    <string name="action_favorite">Add to Favorites</string>
+    <string name="action_unfavorite">Remove from Favorites</string>
+    <string name="action_share">Share</string>
+    <string name="action_refresh">Refresh</string>
+
+    <!-- Messages -->
+    <string name="loading">Loading...</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_no_results">No cocktails found</string>
+    <string name="success_added_favorite">Added to favorites</string>
+    <string name="success_removed_favorite">Removed from favorites</string>
+
+    <!-- Settings -->
+    <string name="settings_language">Language</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="no_internet">An error occured.</string>
+    <string name="coctail_logo_opening">Coctail logo opening</string>
+    <string name="preferences">Preferences</string>
+    <string name="exit">Exit</string>
+    <string name="items">Items</string>
+    <string name="about">About</string>
+    <string name="do_you_really_want_to_exit_an_app">Do you really want to exit app?</string>
+    <string name="close">Close</string>
+    <string name="notifications">Notifications</string>
+    <string name="language">Language</string>
+    <string name="no_cocktails_found">No cocktails found</string>
+    <string name="cocktail_image">Cocktail image</string>
+    <string name="details">Details</string>
+    <string name="no_favorites">No favorites yet. Tap the heart on a cocktail to add it!</string>
+    <string name="muddle_mint_leaves_with_sugar_and_lime_juice">Muddle mint leaves with sugar and lime juice...</string>
+    <string name="_2_oz_white_rum_1_oz_fresh_lime_juice_2_tsp_sugar">- 2 oz White rum\n- 1 oz Fresh lime juice\n- 2 tsp Sugar</string>
+    <string name="cocktail_explorer">Cocktail Explorer</string>
+    <string name="selected_language">Selected language.</string>
+    <string name="receive_notifications_for_new_cocktail">Receive notifications for new cocktail.</string>
+    <string name="please_select_preferences">Please select preferences</string>
+    <string name="cocktail_explorer_about">
+
+         \n\n
+        \n\nAbout
+This mobile application was created as a student project to demonstrate Android development with Kotlin.
+The app allows users to explore various cocktail recipes, mark favorites, and receive notifications about new drinks added.
+ \n\n
+The project’s source code is publicly available on GitHub:
+👉 [https://github.com/inescodefam](https://github.com/inescodefam)
+ \n\n
+This app is a learning project and **not a commercial product**. It is intended for educational and demonstration purposes only.
+ \n\n
+Privacy Policy
+         \n\n
+This app does **not collect, store, or share any personal data**.
+All actions, preferences, and settings remain on your local device.
+ \n\n
+We do not use analytics, tracking tools, or third-party services that collect user information.
+If future versions include online interaction or login features, this privacy policy will be updated accordingly.
+ \n\n
+For questions or issues related to data or privacy, you can find project details and contact information through the open-source repository:
+👉 [https://github.com/inescodefam](https://github.com/inescodefam)
+ \n\n
+Terms of Use
+By using this application, you agree to the following terms:
+ \n\n
+1. The app is provided **“as is”** without warranties of any kind.
+2. The app is for **educational and personal use** only.
+3. The author assumes **no responsibility** for any inaccuracies in the cocktail data or any consequences of its use.
+4. You may view, modify, and distribute the source code under the conditions listed on GitHub.
+5. External cocktail data (if any) is used for **demonstration purposes** and belongs to its respective owners.
+ \n\n
+For source code, licensing details, or contributing, please visit:
+👉 [https://github.com/inescodefam](https://github.com/inescodefam)
+
+    </string>
+    <string name="search">Search</string>
+
+    <!-- Notification strings  -->
+    <string name="notification_favorite_title">New Favorite!</string>
+    <string name="notification_favorite_message">%1$s has been added to your favorites</string>
+    <string name="notification_reminder_title">Cocktail Reminder</string>
+    <string name="notification_reminder_message">Time to try %1$s!</string>
+    <string name="notification_test_title">Test Notification</string>
+    <string name="notification_test_message">Notifications are working correctly!</string>
+
+    <!-- Permission strings -->
+    <string name="notification_permission_title">Notification Permission</string>
+    <string name="notification_permission_rationale">This app needs notification permission to alert you when cocktails are added to favorites and send reminders.</string>
+    <string name="notification_permission_granted">Notification permission granted</string>
+    <string name="notification_permission_denied">Notification permission denied. You can enable it in app settings.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Notification options dialog -->
+    <string name="notification_options">Notification Options</string>
+    <string name="send_test_notification">Send Test Notification</string>
+    <string name="schedule_reminder">Schedule Reminder (10 sec)</string>
+    <string name="check_network_status">Check Network Status</string>
+    <string name="notification_sent">Notification sent!</string>
+    <string name="reminder_scheduled">Reminder scheduled for 10 seconds from now</string>
+    <string name="network_connected">Connected via %1$s</string>
+    <string name="network_disconnected">No network connection</string>
+
+    <!-- Delete cocktail strings -->
+    <string name="delete_cocktail_title">Delete Cocktail</string>
+    <string name="delete_cocktail_message">Are you sure you want to delete %1$s? This action cannot be undone.</string>
+    <string name="delete">Delete</string>
+    <string name="cocktail_deleted">%1$s has been deleted</string>
+
+    <!-- Category filter strings -->
+    <string name="select_category">Select Category</string>
+    <string name="clear_category">Clear category filter</string>
+    <string name="all_categories">All Categories</string>
+</resources>

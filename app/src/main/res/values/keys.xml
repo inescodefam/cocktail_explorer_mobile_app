@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firstKey" translatable="false">first key</string>
+    <string name="savedPreferences" translatable="false">Preferences Saved</string>
+
+</resources>

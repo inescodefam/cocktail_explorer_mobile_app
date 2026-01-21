@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Istraživač Koktela</string>
+
+    <string name="nav_home">Početna</string>
+    <string name="nav_favorites">Omiljeni</string>
+    <string name="nav_search">Pretraživanje</string>
+    <string name="nav_settings">Postavke</string>
+
+
+    <string name="title_all_cocktails">Svi kokteli</string>
+    <string name="title_categories">Kategorije</string>
+    <string name="search_hint">Pretraži koktele...</string>
+    <string name="filter_all">Svi</string>
+    <string name="filter_alcoholic">Alkoholni</string>
+    <string name="filter_non_alcoholic">Bezalkoholni</string>
+
+
+    <string name="ingredients_title">Sastojci</string>
+    <string name="instructions_title">Upute</string>
+    <string name="glass_type">Čaša: %1$s</string>
+    <string name="category">Kategorija: %1$s</string>
+
+
+    <string name="action_favorite">Dodaj u omiljene</string>
+    <string name="action_unfavorite">Ukloni iz omiljenih</string>
+    <string name="action_share">Podijeli</string>
+    <string name="action_refresh">Osvježi</string>
+
+    <string name="loading">Učitavanje...</string>
+    <string name="error_network">Greška mreže. Provjerite vezu.</string>
+    <string name="error_no_results">Kokteli nisu pronađeni</string>
+    <string name="success_added_favorite">Dodano u omiljene</string>
+    <string name="success_removed_favorite">Uklonjeno iz omiljenih</string>
+
+
+    <string name="settings_language">Jezik</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_notifications">Obavijesti</string>
+    <string name="no_internet">Došlo je do pogreške..</string>
+
+    <string name="coctail_logo_opening">Otvaranje logotipa koktela</string>
+    <string name="preferences">Postavke</string>
+    <string name="exit">Izlaz</string>
+    <string name="items">Stavke</string>
+    <string name="about">O aplikaciji</string>
+    <string name="do_you_really_want_to_exit_an_app">Želite li zaista izaći iz aplikacije?</string>
+    <string name="close">Zatvori</string>
+    <string name="notifications">Obavijesti</string>
+    <string name="language">Jezik</string>
+    <string name="no_cocktails_found">Nisu pronađeni kokteli</string>
+    <string name="cocktail_image">Slika koktela</string>
+    <string name="details">Detalji</string>
+    <string name="no_favorites">Još nema favorita. Dodirnite srce na koktelu kako biste ga dodali!</string>
+    <string name="muddle_mint_leaves_with_sugar_and_lime_juice">Zgnječite listiće mente sa šećerom i sokom limete...</string>
+    <string name="_2_oz_white_rum_1_oz_fresh_lime_juice_2_tsp_sugar">- 2 oz bijelog ruma\n- 1 oz svježeg soka od limete\n- 2 žličice šećera</string>
+    <string name="cocktail_explorer">Istraživač koktela</string>
+    <string name="selected_language">Odabrani jezik.</string>
+    <string name="receive_notifications_for_new_cocktail">Primaj obavijesti o novim koktelima.</string>
+    <string name="please_select_preferences">Odaberi postavke.</string>
+    <string name="cocktail_explorer_about">\n\n  \n\nO  aplikaciji
+\n\nOva mobilna aplikacija izrađena je kao studentski projekt s ciljem demonstracije razvoja Android aplikacija pomoću Kotlina.
+Aplikacija omogućuje korisnicima istraživanje različitih recepata za koktele, spremanje omiljenih i primanje obavijesti o novim dodanim koktelima.
+\n\n
+Izvorni kod projekta javno je dostupan na GitHubu:
+https://github.com/inescodefam
+\n\n
+Ova aplikacija je namijenjena isključivo za obrazovne i demonstracijske svrhe te nije komercijalni proizvod.
+\n\n
+Politika privatnosti
+Ova aplikacija ne prikuplja, ne pohranjuje i ne dijeli osobne podatke korisnika.
+Sve radnje, postavke i preferencije ostaju pohranjene isključivo na vašem uređaju.
+\n\n
+Ne koristimo analitiku, sustave praćenja ni usluge trećih strana koje prikupljaju korisničke podatke.
+Ako buduće verzije aplikacije uvedu mrežnu interakciju ili prijavu korisnika, ova će se pravila privatnosti ažurirati u skladu s tim.
+\n\n
+Za više informacija o projektu i autoru, posjetite otvoreni repozitorij:
+https://github.com/inescodefam
+\n\n
+Uvjeti korištenja
+Korištenjem ove aplikacije prihvaćate sljedeće uvjete:
+\n\n
+Aplikacija se pruža "takva kakva jest" bez ikakvih jamstava.
+\n\n
+Aplikacija je namijenjena isključivo za obrazovne i osobne potrebe.
+\n\n
+Autor ne preuzima odgovornost za eventualne netočnosti u podacima o koktelima niti za posljedice njihove uporabe.
+\n\n
+Izvorni kod možete pregledavati, mijenjati i dijeliti u skladu s uvjetima navedenima na GitHub stranici projekta.
+\n\n
+Vanjski podaci o koktelima (ako se koriste) namijenjeni su isključivo u demonstrativne svrhe i ostaju vlasništvo svojih autora.
+\n\n
+Za izvorni kod, licencu ili doprinos projektu, posjetite:
+https://github.com/inescodefam</string>
+    <string name="search">Pretraga</string>
+    <!-- Notification strings -->
+    <string name="notification_favorite_title">Nova omiljena!</string>
+    <string name="notification_favorite_message">%1$s je dodan u tvoje omiljene.</string>
+    <string name="notification_reminder_title">Podsjetnik na koktel</string>
+    <string name="notification_reminder_message">Vrijeme je da probaš %1$s!</string>
+    <string name="notification_test_title">Testna obavijest</string>
+    <string name="notification_test_message">Obavijesti ispravno rade!</string>
+
+    <!-- Permission strings -->
+    <string name="notification_permission_title">Dozvola za obavijesti</string>
+    <string name="notification_permission_rationale">Ovoj aplikaciji je potrebna dozvola za obavijesti kako bi te obavijestila kada se kokteli dodaju u omiljene i slala podsjetnike.</string>
+    <string name="notification_permission_granted">Dozvola za obavijesti odobrena</string>
+    <string name="notification_permission_denied">Dozvola za obavijesti odbijena. Možeš je omogućiti u postavkama aplikacije.</string>
+    <string name="grant_permission">Dodijeli dozvolu</string>
+    <string name="cancel">Otkaži</string>
+
+    <!-- Notification options dialog -->
+    <string name="notification_options">Opcije obavijesti</string>
+    <string name="send_test_notification">Pošalji testnu obavijest</string>
+    <string name="schedule_reminder">Zakaži podsjetnik (10 s)</string>
+    <string name="check_network_status">Provjeri status mreže</string>
+    <string name="notification_sent">Obavijest poslana!</string>
+    <string name="reminder_scheduled">Podsjetnik zakazan za 10 sekundi od sada</string>
+    <string name="network_connected">Povezano preko %1$s</string>
+    <string name="network_disconnected">Nema mrežne veze</string>
+
+    <!-- Delete cocktail strings -->
+    <string name="delete_cocktail_title">Brisanje koktela</string>
+    <string name="delete_cocktail_message">Jesi li siguran/na da želiš obrisati %1$s? Ova radnja je nepovratna.</string>
+    <string name="delete">Obriši</string>
+    <string name="cocktail_deleted">%1$s je obrisan.</string>
+
+    <!-- Category filter strings -->
+    <string name="select_category">Odaberi kategoriju</string>
+    <string name="clear_category">Ukloni filter kategorije</string>
+    <string name="all_categories">Sve kategorije</string>
+
+
+</resources>

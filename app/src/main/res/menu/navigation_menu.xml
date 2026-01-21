@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:icon="@drawable/menu"
+    >
+
+    <item
+        android:id="@+id/menuAbout"
+        android:title="@string/about"
+        android:icon="@drawable/info"
+        android:iconTint="@color/accent_color"/>
+    <item
+        android:id="@+id/miPref"
+        android:title="@string/preferences"
+        android:icon="@drawable/menu"
+        android:iconTint="@color/white"
+       />
+    <item
+        android:id="@+id/miNotifications"
+        android:title="@string/notifications"
+        android:icon="@android:drawable/ic_popup_reminder"
+        android:iconTint="@color/white"
+        />
+    <item
+        android:id="@+id/miExit"
+        android:title="@string/exit"
+        android:icon="@drawable/close"
+        android:iconTint="@color/white"
+        />
+
+</menu>

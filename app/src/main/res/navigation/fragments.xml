@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/menuCocktails"
+    android:id="@+id/fragments">
+
+    <fragment
+        android:id="@+id/menuCocktails"
+        android:label="@string/title_all_cocktails"
+        android:name="hr.algebra.cocktailexplorer.fragment.CocktailsFragment"
+        tools:layout="@layout/fragment_cocktails">
+
+        <action
+            android:id="@+id/action_cocktails_to_detail"
+            app:destination="@id/cocktailDetail" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/menuFavorites"
+        android:label="@string/nav_favorites"
+        android:name="hr.algebra.cocktailexplorer.fragment.FavoritesFragment"
+        tools:layout="@layout/fragment_cocktails">
+
+        <action
+            android:id="@+id/action_favorites_to_detail"
+            app:destination="@id/cocktailDetail" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/cocktailDetail"
+        android:label="@string/details"
+        android:name="hr.algebra.cocktailexplorer.fragment.CocktailDetailFragment"
+        tools:layout="@layout/fragment_cocktail_detail">
+
+        <argument
+            android:name="cocktail_id"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_cocktailDetail_to_menuCocktails"
+            app:destination="@id/menuCocktails" />
+        <action
+            android:id="@+id/action_cocktailDetail_to_menuAbout"
+            app:destination="@id/menuAbout" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/menuAbout"
+        android:label="@string/about"
+        android:name="hr.algebra.cocktailexplorer.fragment.AboutFragment"
+        tools:layout="@layout/fragment_about">
+        <action
+            android:id="@+id/action_menuAbout_to_menuFavorites"
+            app:destination="@id/menuFavorites" />
+        <action
+            android:id="@+id/action_menuAbout_to_menuCocktails"
+            app:destination="@id/menuCocktails" />
+    </fragment>
+
+</navigation>
